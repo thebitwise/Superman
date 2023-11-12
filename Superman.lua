@@ -8,7 +8,7 @@
 --\________|\__|  \__|\__|  \__| \______/ \________|
 -- coded by Lance/stonerchrist on Discord
 util.require_natives("2944b", "g")
-
+pluto_use "0.5.0"
 function play_anim(ped, dict, name, duration)
     while not HAS_ANIM_DICT_LOADED(dict) do
         REQUEST_ANIM_DICT(dict)
